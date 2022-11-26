@@ -2,12 +2,20 @@
 <html lang="en">
     <head>
         <title>Lillte Lemon</title>
+        <meta property="og:tittle" content="Our Menu">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="logo.png">
+        <meta property="og:url" content="https://littlelemon">
+        <meta property="og:description" content="Little lemon is a family-owned mediterranean restaurant, focused on traditional receipes served to the modern twist.">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:site_name" content="Little Lemon">
+        <link rel="stylesheet" href="styles.css"> 
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <header>
-            <img src="logo.png" width="100px" height="100px">
+            <img src="logo.png" id="logo" width="100px" height="100px">
         </header>
         <nav>
             <ul>
@@ -21,23 +29,23 @@
             <form>
                 <div>
                     <label for="user_first_name">First Name</label><br>
-                    <input type="text" id="user_first_name" name="user_first_name">
+                    <input type="text" id="user_first_name" name="user_first_name" required minlength="2">
                 </div>
                 <div>
                     <label for="user_last_name">last Name</label><br>
-                    <input type="text" id="user_last_name" name="user_last_name">
+                    <input type="text" id="user_last_name" name="user_last_name" required minlength="2">
                 </div>
                 <div>
                     <label for="user_mail">Email</label><br>
-                    <input type="email" id="user_mail" name="user_mail">
+                    <input type="email" id="user_mail" name="user_mail" required>
                 </div>
                 <div>
                     <label for="password">Password</label><br>
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="password" name="password" required minlength="3">
                 </div>
                 <div>
                     <label for="confirm_password">Confirm password</label><br>
-                    <input type="password" id="confirm_password" name="confirm_password">
+                    <input type="password" id="confirm_password" name="confirm_password" required minlength="3">
                 </div>
                 <div>
                     <button type="submit">Sign up</button>
@@ -45,7 +53,7 @@
             </form>
         </main>
         <footer>
-            <p>Copyright Lillte Lemon</p>
+            <p id="copyright">Copyright Lillte Lemon</p>
         </footer>
     </body>
 </html>
