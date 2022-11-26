@@ -43,17 +43,7 @@ h2 > span {
     font-size: 0.75em;
 }
 
-form > div {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-}
-
 #copyright {
     padding-top: 12px;
     font-size: 0.75em;
-}
 
-input:focus:invalid {
-    color: red;
-    border: red 3px solid;
-}
