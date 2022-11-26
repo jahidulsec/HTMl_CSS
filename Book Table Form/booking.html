@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Little Lemon</title>
+        <meta property="og:title" content="Book table">
+        <meta property="og:url" content="https://littlelemon">
+        <meta property="og:image" content="logo.png">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Little Lemon Booking Table Form">
+        <meta property="og:description" content="Book your table and enjoy your meal!">
+        <meta property="og:locale" content="en_US">
+        <link rel="stylesheet" href="styleBooking.css">
+    </head>
+    <body>
+        <header>
+            <img src="logo.png" width="150px">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="location.html">Location</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Book your table</h1>
+            <form method="post">
+                <fieldset id="size">
+                    <label> <!--it is used to mark radio when clicked on labels-->
+                        <input type="radio" value="2" name="size"> 2 persons table
+                        <input type="radio" value="4" name="size" checked> 4 persons table
+                        <input type="radio" value="6" name="size">  6 persons table
+                    </label>
+                </fieldset>
+                <fieldset id="location">
+                    <label>
+                        <input type="radio" value="Indoor" name="location" checked> Indoor
+                        <input type="radio" value="Outdoor" name="location"> Outdoor
+                    </label>
+                </fieldset>
+                <button type="submit">Book</button>
+            </form>
+        </main>
+        <footer id="copyright">Copyright little Lemon</footer>
+    </body>
+</html>
