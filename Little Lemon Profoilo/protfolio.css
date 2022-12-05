@@ -1,0 +1,115 @@
+body {
+    background-color: #edefee;
+    font-family: 'Markazi Text','Cambria', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 3rem;
+}
+.ourNewMenu {
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+nav ul {
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 3rem;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    display: inline;
+    padding: 1px;
+    margin: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav a:hover {
+    border-bottom: 2px solid yellow;
+    
+}
+
+.row_1 {
+    display: flex;
+    flex: 1;
+    background-image: url(cover.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    padding:0 30px;
+}
+
+.row_3 {
+    display: flex;
+}
+
+.row_3 div {
+    flex: 1;
+}
+
+.row_31, .row_32 {
+    background-color: #fcf960;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.row_33 {
+    background-color: #fcf960;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;  
+}
+
+.img_menu, .img_table, .img_open{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.open_list {
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    margin-top: 3rem;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer div p {
+    text-align: right;
+    padding-top: 0.5rem;
+    border-top: 1px solid black;
+}
