@@ -11,7 +11,7 @@ h1 {
     color: #ffffff;
     font-size: 3rem;
 }
-.ourNewMenu {
+.promotion {
     color: #ffffff;
 }
 
@@ -29,7 +29,6 @@ header > img {
 nav ul {
     background-color: black;
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
     padding: 10px;
     border-radius: 15px;
@@ -41,7 +40,7 @@ nav li {
 }
 
 nav a {
-    display: inline;
+    display: inline-block;
     padding: 1px;
     margin: 0 25px;
     text-align: center;
@@ -50,53 +49,47 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom: 2px solid yellow;
-    
+    text-decoration: underline solid yellow;
+    text-decoration-thickness: 0.2rem;
 }
 
 .row_1 {
     display: flex;
-    flex: 1;
     background-image: url(cover.jpg);
     background-size: cover;
+    background-position: 75%;
     border-radius: 15px;
-    padding:0 30px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .row_3 {
     display: flex;
+    gap: 2rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .row_3 div {
     flex: 1;
 }
 
-.row_31, .row_32 {
-    background-color: #fcf960;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    padding: 20px;
-    border-radius: 10px;
-}
-.row_33 {
-    background-color: #fcf960;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 10px;  
-}
-
-.img_menu, .img_table, .img_open{
+article div img{
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 5px;
 }
 
 .open_list {
     list-style: none;
+}
+
+.row_3 div{
+    background-color: #fbdabb79;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
 }
 
 footer {
